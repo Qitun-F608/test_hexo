@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -16,23 +16,24 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="静态博客搭建工具汇总工具：  Hexo：将 .md 转成 .html 文件，最终生成的是一个静态博客。  docsify：md 文件。简单。 VuePress：预先渲染 html Jekyll  可以直接在 github 网页版上编辑和发布博客，PC 间切换和同步非常方便。 github默认支持jekyll, GitHub Pages 快速入门 - GitHub 文档   Read the Doc">
+    <meta name="description" content="静态博客搭建工具汇总CHATGPT：在静态博客搭建工具中，有五个相对较为流行和被广泛采用的工具是：  Jekyll：作为最早和最流行的静态网站生成器之一，Jekyll 有着强大的社区支持和丰富的主题插件。它易于上手，适合于各种规模的网站和博客。 Hexo：基于 Node.js 的快速、简单的静态网站生成器，它的速度快、支持插件和主题，受到开发者和博客作者的青睐。 Gatsby：Gatsby 是一个">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Test">
-<meta property="og:url" content="http://example.com/2023/11/27/Test/index.html">
+<meta property="og:title" content="Hexo搭建静态网站">
+<meta property="og:url" content="http://example.com/2023/11/27/Hexo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="静态博客搭建工具汇总工具：  Hexo：将 .md 转成 .html 文件，最终生成的是一个静态博客。  docsify：md 文件。简单。 VuePress：预先渲染 html Jekyll  可以直接在 github 网页版上编辑和发布博客，PC 间切换和同步非常方便。 github默认支持jekyll, GitHub Pages 快速入门 - GitHub 文档   Read the Doc">
-<meta property="og:locale" content="en_US">
+<meta property="og:description" content="静态博客搭建工具汇总CHATGPT：在静态博客搭建工具中，有五个相对较为流行和被广泛采用的工具是：  Jekyll：作为最早和最流行的静态网站生成器之一，Jekyll 有着强大的社区支持和丰富的主题插件。它易于上手，适合于各种规模的网站和博客。 Hexo：基于 Node.js 的快速、简单的静态网站生成器，它的速度快、支持插件和主题，受到开发者和博客作者的青睐。 Gatsby：Gatsby 是一个">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/fox.png">
 <meta property="article:published_time" content="2023-11-27T05:00:00.000Z">
-<meta property="article:modified_time" content="2023-11-28T02:50:27.675Z">
+<meta property="article:modified_time" content="2023-11-28T03:34:21.428Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="skills">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/img/fox.png">
   
   
   
-  <title>Test - Hexo</title>
+  <title>Hexo搭建静态网站 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -96,7 +97,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>程铁蛋的主页</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -116,7 +117,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Home</span>
+                <span>首页</span>
               </a>
             </li>
           
@@ -128,7 +129,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archives</span>
+                <span>归档</span>
               </a>
             </li>
           
@@ -140,7 +141,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Categories</span>
+                <span>分类</span>
               </a>
             </li>
           
@@ -152,7 +153,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Tags</span>
+                <span>标签</span>
               </a>
             </li>
           
@@ -164,7 +165,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                <span>About</span>
+                <span>关于</span>
               </a>
             </li>
           
@@ -192,13 +193,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/1.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/img/fox.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Test"></span>
+            <span id="subtitle" data-typed-text="Hexo搭建静态网站"></span>
           
         </div>
 
@@ -210,7 +211,7 @@
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
         <time datetime="2023-11-27 13:00" pubdate>
-          November 27, 2023 pm
+          2023年11月27日 下午
         </time>
       </span>
     
@@ -221,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.8k words
+          2.6k 字
         
       </span>
     
@@ -232,7 +233,7 @@
         
         
         
-          16 mins
+          22 分钟
         
       </span>
     
@@ -269,28 +270,50 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Test</h1>
+            <h1 id="seo-header">Hexo搭建静态网站</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="静态博客搭建工具汇总"><a href="#静态博客搭建工具汇总" class="headerlink" title="静态博客搭建工具汇总"></a>静态博客搭建工具汇总</h1><p>工具：</p>
+                <h1 id="静态博客搭建工具汇总"><a href="#静态博客搭建工具汇总" class="headerlink" title="静态博客搭建工具汇总"></a>静态博客搭建工具汇总</h1><p>CHATGPT：<br>在静态博客搭建工具中，有五个相对较为流行和被广泛采用的工具是：</p>
 <ul>
-<li><a target="_blank" rel="noopener" href="https://hexo.io/docs/">Hexo</a>：将 .md 转成 .html 文件，最终生成的是一个静态博客。 </li>
-<li><a target="_blank" rel="noopener" href="https://docsify.js.org/#/">docsify</a>：md 文件。简单。</li>
-<li><a target="_blank" rel="noopener" href="https://vuepress.vuejs.org/zh/">VuePress</a>：预先渲染 html</li>
-<li><a target="_blank" rel="noopener" href="http://jekyllrb.com/">Jekyll</a> <ul>
-<li>可以直接在 github 网页版上编辑和发布博客，PC 间切换和同步非常方便。</li>
-<li>github默认支持jekyll,</li>
-<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/pages/quickstart">GitHub Pages 快速入门 - GitHub 文档</a></li>
+<li>Jekyll：作为最早和最流行的静态网站生成器之一，Jekyll 有着强大的社区支持和丰富的主题插件。它易于上手，适合于各种规模的网站和博客。</li>
+<li>Hexo：基于 Node.js 的快速、简单的静态网站生成器，它的速度快、支持插件和主题，受到开发者和博客作者的青睐。</li>
+<li>Gatsby：Gatsby 是一个基于 React 构建的静态网站生成器，其强大的功能和性能优势适合于需要更复杂功能和高性能网站的用户。</li>
+<li>Hugo：Hugo 是一个速度非常快的静态网站生成器，它的简单性和高性能使得它备受欢迎，特别适合于快速建站和简单博客。</li>
+<li>VuePress：VuePress 是 Vue.js 的静态网站生成器，尤其适用于文档和技术博客，由于其简洁性和易用性也备受欢迎。</li>
 </ul>
-</li>
-<li><a target="_blank" rel="noopener" href="https://readthedocs.org/">Read the Docs</a> 是一个在线文档托管服务 <ul>
-<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/473812418">Read the Docs+GitHub 文档托管教程 - 知乎</a></li>
+<p class="note note-success">
+至于搭建技术文档，推荐Docsify和Read the Docs
+
+
+<p>Read the Docs：</p>
+<ul>
+<li>适用场景：主要适用于开源项目和技术文档，能够与GitHub等版本控制系统集成，支持自动化构建文档。</li>
+<li>自动化构建：Read the Docs 能够从代码仓库中自动拉取文档源文件（通常是 reStructuredText 或者 Markdown 格式），然后构建并发布文档。</li>
+<li>版本控制：支持文档版本控制，可以为每个代码提交或版本标签自动生成和发布相应版本的文档。</li>
+<li>用户体验：提供了良好的阅读体验，支持搜索、目录结构、主题定制等。</li>
 </ul>
-</li>
+<p>Docsify：</p>
+<ul>
+<li>轻量级：Docsify 是一个简单、轻量级的文档网站生成器，使用Markdown编写文档，无需构建过程。</li>
+<li>简单易用：Docsify 直接在浏览器中渲染Markdown文件，无需专门的编译步骤，易于上手。</li>
+<li>自定义性：提供了一些自定义主题和插件，但相对于其他工具可能功能稍显有限。</li>
+<li>适用场景：适合快速搭建技术文档网站，特别适用于个人项目或小型团队的文档管理。</li>
 </ul>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/546966226">工具优缺点分析</a> </p>
+<p>比较与选择：</p>
+<ul>
+<li>如果你的项目是开源的、需要与代码仓库结合、希望实现自动化构建，并提供完整的版本控制和良好的阅读体验，Read the Docs可能更适合你。</li>
+<li>如果你需要一个简单快速的方式来搭建技术文档网站，Docsify提供了一种无需复杂设置的轻量级解决方案。</li>
+<li>总体而言，选择哪个工具要根据你的项目需求、团队习惯和个人偏好来决定。Read the Docs 更专注于开源项目和自动化构建，而 Docsify 则更侧重于快速搭建简单的技术文档网站。</li>
+</ul>
+</p>
+
+
+
+
+
+
 <h1 id="Hexo-搭建"><a href="#Hexo-搭建" class="headerlink" title="Hexo 搭建"></a>Hexo 搭建</h1><p>PS：Hexo 官方文档这部分写的很拉跨且过时。</p>
 <ul>
 <li>准备工作<ul>
@@ -425,6 +448,13 @@
               <div class="post-metas my-3">
   
   
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/skills/" class="print-no-link">#skills</a>
+      
+    </div>
+  
 </div>
 
 
@@ -433,32 +463,32 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Test</div>
-      <div>http://example.com/2023/11/27/Test/</div>
+      <div>Hexo搭建静态网站</div>
+      <div>http://example.com/2023/11/27/Hexo搭建静态网站/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Author</div>
+          <div>作者</div>
           <div>John Doe</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Posted on</div>
-          <div>November 27, 2023</div>
+          <div>发布于</div>
+          <div>2023年11月27日</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Licensed under</div>
+          <div>许可协议</div>
           <div>
             
               
               
                 <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-by"></i>
                   </span>
                 </a>
@@ -499,7 +529,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -555,7 +585,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -563,7 +593,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -580,7 +610,7 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       # <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> # <i class="iconfont icon-love"></i> # <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
     </div>
   
   
@@ -742,7 +772,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
